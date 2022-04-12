@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    
+    <style>
+        .container{
+            background-color: aqua;
+            padding: 10px;
+            
+        }
+
+        .title{
+            background-color: azure;
+            border-radius: 5px;
+            text-align: center;
+
+        }
+
+        .title__text{
+
+            color: blanchedalmond;
+            font:16px sans-serif;
+
+        }
+        .tilte__texte--color{
+            color: cornflowerblue;
+        }
+
+        .content{
+            background-color: blueviolet;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+         
+        .content__form{
+            background-color: lightgreen;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .content__label{
+            padding: 15px;
+            font: 12px sans-serif;
+
+
+
+        }
+        .content__submit{
+            background-color:chocolate ;
+            border-radius: 6px;
+            padding: 6px;
+            text-align: center;
+
+        }
+
+        .content__submit--hover:hover{
+
+            background-color: red;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="title">
+            <h1 class="title__text title__text--color">formulário</h1>
+        </div>
+        <div class="content">
+
+            <form action="" class="content__form">
+
+                <label for="nome" class="content__label">nome</label>
+                <input type="text">
+
+                <label for="email" class="content__label" >email</label>
+                <input type="email">
+
+                <label for="senha" class="content__label">senha</label>
+                <input type="password">
+
+                <label for="confirmar-senha" class="content__label">confirmar senha</label>
+                <input type="password">
+
+                <input type="submit" value="confirmar" class="content__submit content__submit--hover">
+
+            </form>
+
+        </div>
+
+    </div>
+</body>
+</html>
